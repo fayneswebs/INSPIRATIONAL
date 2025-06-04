@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ 
+body {
+    background-image: url(bg2.jpg);
+}
+.navbar{
+    width: 1400px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 75px;
+}
+.logo{
+    color: whitesmoke;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+    padding-top: 12px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 27px;
+    font-size: 14px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-outf;
+}
+ul li a:hover{
+    color: navajowhite;
+}
+.niel{
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  font-size: large;
+    color: wheat;
+     padding-left: 270px;
+     letter-spacing: 1.2px;
+}
+.ashley{
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  font-size: large;
+    color: wheat;
+     padding-left: 780px;
+     padding-bottom: 0.1;
+     letter-spacing: 1.2px;
+}
+.shekinah{
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  font-size: large;
+    color: wheat;
+     padding-left: 1300px;
+     padding-bottom: 1px;
+     letter-spacing: 1.2px;
+}
